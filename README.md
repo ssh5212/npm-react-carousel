@@ -1,4 +1,4 @@
-# @angel-react/carousel
+# @angelplayer/react-carousel
 
 This package is a "Super easy Carousel" component made by [AngelPlayer](https://github.com/ssh5212/npm-react-carousel).
 
