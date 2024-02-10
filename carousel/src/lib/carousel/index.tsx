@@ -77,7 +77,7 @@ const StyledCarouselIcon = styled.div`
     }
 `;
 
-const Carousel: React.FC<CarouselProps> = ({ slides, speed = 5000, type = 'contain' }) => {
+const Carousel: React.FC<CarouselProps> = ({ slides, speed = 5000, type = 'cover' }) => {
     const [currentSlide, setCurrentSlide] = useState<number>(0);
     const [carouselWidth, setCarouselWidth] = useState<number>(0);
 
